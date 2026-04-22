@@ -21,13 +21,13 @@ Pod::Spec.new do |s|
   s.xcconfig =   { 'OTHER_LDFLAGS' => ['-lObjC']}
   s.pod_target_xcconfig =   { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i' }
   
-  s.source = { :http => "https://github.com/QianChengWuXian/FunlinkSDK/releases/download/#{s.version}/FLinkAdSaas.zip" }
+  s.source = { :http => "https://github.com/QianChengWuXian/FunlinkGlobal/releases/download/#{s.version}/FLGAAdSaas.zip" }
 
-  s.default_subspecs = 'FunlinkSDK'
+  s.default_subspecs = 'FunlinkGlobal'
 
-  s.subspec 'FunlinkSDK' do |ss|
+  s.subspec 'FunlinkGlobal' do |ss|
     ss.ios.deployment_target = '11.0'
-    ss.vendored_frameworks = 'FLinkAdSaas.xcframework'
+    ss.vendored_frameworks = 'FLGAAdSaas.xcframework'
   end
   
 end
