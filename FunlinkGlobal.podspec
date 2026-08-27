@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FunlinkGlobal"
-  s.version      = "2.9.0.1.2"
+  s.version      = "2.9.0.1.3"
   s.summary      = "Mobile App Aggregation Ad SDK of FunlinkGlobal for iOS."
   s.description  = <<-DESC
             FunlinkGlobal is an advertising aggregation SDK that allows you to monetize iOS applications through FunlinkGlobal advertising.
